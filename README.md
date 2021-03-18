@@ -2,11 +2,11 @@
 March_Madness_2021 is a project that uses machine learning and other methods to determine the best way to predict the top 10 teams of March Madness. This was created for a local competition. 
 
 # Process
-1. First, in March Madness.ipynb, I generated some graphs and looked at correlation to get an understanding of what factors would be the most predictive of who wins or loses.
+1. In March Madness.ipynb, I generated some graphs and looked at correlation to get an understanding of what factors would be the most predictive of who wins or loses.
 
-1. Second, in March_Madness_ML_Models.ipynb, I created around 63k different machine learning models to attempt to correctly predict how many wins a given team would have. The results from these models are saved in Results.xlsx. The top models only achieved about 58% accuracy, so I decided that another approach was needed.
+1. In March_Madness_ML_Models.ipynb, I created around 63k different machine learning models to attempt to correctly predict how many wins a given team would have. The results from these models are saved in Results.xlsx. The top models only achieved about 58% accuracy, so I decided that another approach was needed.
 
-1. Last, in March_Madness_Weighted_Average.ipynb, I used a range of weights on the top 5 most heavily correlated (R2) features to create a rank for each team. I sorted based on the rank and got a score for each combination of weights. The results from these models are stored in Weighted_Results.xlsx. With the top scores just over 200, I was happy with the results.
+1. In March_Madness_Weighted_Average.ipynb, I used a range of weights on the top 5 most heavily correlated (R2) features to create a rank for each team. I sorted based on the rank and got a score for each combination of weights. The results from these models are stored in Weighted_Results.xlsx. With the top scores just over 200, I was happy with the results.
 
 1. The top combination that I believed would perform the best on the 2021 data was hardcoded into submission.py. This file takes the selected columns from the 2021 data, creates a rank for each team, sorts them, and outputs the top 10 teams to the console. Submission.py was submitted for my entry in the competition along with instructions on how to use it.
 
