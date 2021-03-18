@@ -22,5 +22,9 @@ will print the top 10 teams that it determines are the best.
 
 If you have issues running the code, try installing the pandas and sklearn libraries.
 To do this on Windows or Mac, open a command prompt/terminal, and type
-	pip install pandas scikit-learn
+
+   ```bash
+   pip install pandas scikit-learn
+   ```
+
 This should install the required packages and allow you to run the script.
